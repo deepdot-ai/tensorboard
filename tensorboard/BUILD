@@ -25,7 +25,7 @@ py_binary(
     deps = [
         ":default",
         ":program",
-        "//tensorboard:expect_tensorflow_installed",
+        "@org_tensorflow//tensorflow:tensorflow_py",
     ],
 )
 
